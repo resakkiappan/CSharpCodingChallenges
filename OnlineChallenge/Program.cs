@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace OnlineChallenge
@@ -28,8 +29,15 @@ namespace OnlineChallenge
             Console.WriteLine(NumberToWord.Convert(2222299));
             Console.WriteLine(NumberToWord.Convert(22222299));
             Console.WriteLine(NumberToWord.Convert(222222299));
-            */
             Console.WriteLine(RegularExpressionss.VerifyUserName("John$Madsen1234"));
+
+            Reverse each word in a line
+            Console.WriteLine(ReverseEachWordInALine.Reverse("This is an example!"));
+
+            Credit Card Number Check
+            Console.WriteLine(CreditCardNumberCheck.GetCreditCardType(12345678));
+            */
+
             Console.ReadLine();
         }
     }

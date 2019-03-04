@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\CreditCardNumberCheck.cs" />
     <Compile Include="Challenges\FloydTriangle.cs" />
     <Compile Include="Challenges\NineSeriesSum.cs" />
     <Compile Include="Challenges\NumberToWord.cs" />
     <Compile Include="Challenges\Palindrome.cs" />
+    <Compile Include="Challenges\ReverseEachWordInALine.cs" />
     <Compile Include="Challenges\ReversibleNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
